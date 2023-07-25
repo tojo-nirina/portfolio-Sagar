@@ -1,0 +1,137 @@
+#about-me {
+    padding: 96px 80px;
+    align-items: flex-start;
+    align-self: stretch;
+    position: relative;
+    top: 80px;
+    background: rgba(17, 24, 39, 1);
+}
+.button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20px;
+    border-radius: 12px;
+    background: rgba(55, 65, 81, 1);
+}
+#about-me .button {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+#about-me h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    margin-bottom: 24px;
+    color: rgba(249, 250, 251, 1);
+}
+#about-me .second-presentation {
+    max-width: 47%;
+}
+#about-me .second-presentation .paragraphe {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#about-me .second-presentation .paragraph{
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(209, 213, 219, 1);
+}
+#about-me .second-profil {
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+#about-me .img {
+    border: 8px solid var(--gray-dark-default, #030712);
+    background:rgba(55, 65, 81, 1);
+    width: 415px;
+    position: relative;
+    top: 40px;
+}
+#about-me .second-profil img {
+    position: relative;
+    left: 40px;
+    top: -35px;
+    flex-shrink: 0;
+}
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+#about-me .second-presentation .liste {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#about-me .second-presentation .liste li {
+    list-style: none;
+}
+#about-me .second-presentation .liste .row-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1920px){
+    .about-me-container {
+        max-width: 70rem;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #about-me .img {
+        width: 300px;
+        height: 350px;
+    }
+    #about-me img {
+        width: 300px;
+        height: 350px;
+    }
+    #about-me .second-profil img {
+        left: 24px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #about-me .second-profil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about-me .img {
+        width: 362px;
+        height: 350px;
+    }
+    #about-me .second-presentation {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #about-me h3 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 410px){
+    #about-me .img {
+        width: 300px;
+        height: 325px;
+    }
+    #about-me img {
+        width: 238px;
+        height: 325px;
+    }
+}
